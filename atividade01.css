@@ -5,7 +5,8 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #faedd9;
     gap: 20px;
-    padding: 100px;
+    padding: 30px;
+
 }
 
 .miguel {
@@ -20,8 +21,7 @@ header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2a5c0b;
     padding: 10px;
-
-
+    color: black;
 }
 
 .fabio {
@@ -43,24 +43,21 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: justify;
-   
-    
+    gap: 30px;
 }
 
-.bia p{
+.bia h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    color: #faedd9;
+
 }
 
 
-.bia button{
-    width: 150px; 
-    padding: 5px; 
+.bia button {
+    border-radius: 10px;
+    margin: 200px 40px;
     background-color: #2a5c0b;
-    color: black;  
-    border-radius: 5px;   
-    background-position: bottom;
-   
+    color: black;
 }
 
 footer {
@@ -73,4 +70,6 @@ footer {
 
 footer i {
     width: 40px;
+    color: #faedd9;
+
 }
