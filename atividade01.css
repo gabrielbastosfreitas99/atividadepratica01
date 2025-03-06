@@ -5,23 +5,23 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #faedd9;
     gap: 20px;
+    padding: 100px;
 }
 
 .miguel {
     background-color: #2a5c0b;
-    padding: 25px;
+    padding: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
-    display: flex;
-    
+    display: inline-flexbox;
 }
 
 .jhonny {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #808f12;
-    justify-content: center;
-    display: flex;
-    padding: 25px;
+    background-color: #2a5c0b;
+    padding: 10px;
+
+
 }
 
 .fabio {
@@ -29,30 +29,38 @@ header {
     background-color: #faedd9;
     justify-content: center;
     display: flex;
-    padding: 25px;
+    padding: 150px;
 }
 
 .bia {
     background-color: #faedd9;
     background-image: url(imagem/gbf1.webp);
-    padding: 100px;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     justify-content: center;
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: end;
-
-}
-.bia img{
-    width: 100px;
+    text-align: justify;
+   
+    
 }
 
-button{
-    width: 80px;
-    padding: 10px;
-    border-radius: 5px;
+.bia p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.bia button{
+    width: 150px; 
+    padding: 5px; 
+    background-color: #2a5c0b;
+    color: black;  
+    border-radius: 5px;   
+    background-position: bottom;
+   
 }
 
 footer {
@@ -60,9 +68,9 @@ footer {
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
-    padding: 30px;
+    padding: 150px;
 }
 
-footer i{
+footer i {
     width: 40px;
 }
