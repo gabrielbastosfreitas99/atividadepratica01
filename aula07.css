@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* estilizando o header */
+header {
+    padding: 25px;
+    /*responsavel pelo preenchimento interno/tamanho*/
+    background-color: #121210;
+    /*cor de fundo*/
+    display: flex;
+    /*tornando os itens flex/ lado a lado*/
+    justify-content: center;
+    /*justificando o conteudo ao centro*/
+    gap: 50px;
+    /*espaço entre os elementos*/
+    align-items: center;
+    /*responsavel por alinhar verticalmente os itens*/
+}
+
+/* estilizando o icone */
+header i {
+    color: #b7ae8f;
+    /* cor do icone */
+    font-size: 60px;
+    /* tamanho do icone */
+
+}
+
+header h1 {
+    color: #b7ae8f;
+    /*cor da letra*/
+    font-size: 36px;
+    /*tamanho da letra*/
+    font-family: "Dancing Script", cursive;
+}
+
+/* FIM DO CABEÇARIO  */
+
+/* INICIO PRIMERIRA SESSAO */
+
+.gabriel {
+    padding: 15px;
+    background-color: #4a362f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.gabriel span {
+    color: #121210;
+}
+
+.gabriel {
+    font-size: 30px;
+    color: #b7ae8f;
+}
+
+.gabriel img {
+    width: 400px;
+    height: 300px;
+}
+
+
+/* inicio da segunda sessao */
+
+.bastos {
+    background-color: #978f84;
+    padding: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.bastos i {
+    font-size: 50px;
+    color: #121210;
+
+}
+
+.bastos p {
+    color: #121210;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+
+}
+
+/*  fim da sugunda sessao*/
+
+.freitas {
+    padding: 200px;
+    background-image: url(imagem/pipoca.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.freitas button {
+    padding: 10px;
+    background-color: #978f84;
+    color: #121210;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
