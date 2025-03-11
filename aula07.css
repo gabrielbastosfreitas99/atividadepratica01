@@ -33,6 +33,28 @@ header h1 {
     font-family: "Dancing Script", cursive;
 }
 
+.list-menu ul {
+    /*Alteraçao na lista nao oredenada (elemento pai)*/
+    display: flex;
+    /* tornando as ( li ) flex/ladoa a lado*/
+    justify-content: center;
+    /*Deixando elas centralisadas*/
+    gap: 25px;
+    /*Espaço entre as ( li )*/
+}
+
+.list-menu ul li {
+    /*Alteraçao da lista ( li ) (elemento filho)*/
+    list-style: none;
+    /*removendo o estilo de lista aplicado por psdrao*/
+}
+
+.list-menu ul li a {
+    text-decoration: none;
+    /*remoçao do sublinhado (Descoraçao de texto*/
+    color: #978f84;
+}
+
 /* FIM DO CABEÇARIO  */
 
 /* INICIO PRIMERIRA SESSAO */
@@ -93,6 +115,8 @@ header h1 {
     background-image: url(imagem/pipoca.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -103,4 +127,50 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.freitas button {
+    padding: 10px;
+    width: 150px;
+    background-color: #978f84;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+
+/* final da trerseira sessao */
+
+footer {
+    padding: 50px;
+    background-color: #4a362f;
+    text-align: center;
+    /*momentaneo*/
+}
+
+footer p {
+    color: #978f84;
+    font-size: 25px;
+}
+
+footer i {
+
+    color: #121210;
+    /*cor do iicone*/
+    font-size: 20px;
+    /*tamanho do icone*/
+}
+
+.sessao-04 {
+    padding: 150px;/*preencimento/tamanho da section*/
+    background-color: #121210;/*cor do fundo*/
+    display: flex;/*deixando as div´s lado a lado*/
+    gap: 100px;/*espaçamento entre as caixas */
+    justify-content: space-evenly;/*justificando os conteudos*/
+}
+
+.sessao-04 div { /*estilizando as div/caixas (total 3)*/
+    background-color: bisque;/*cor de fundo da caixa*/
+    width: 300px;/*largura da caixa*/
+    height: 300px;/*altura da caixa*/
+    color: #121210;/*cor da letra*/
 }
