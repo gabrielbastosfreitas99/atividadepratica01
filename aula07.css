@@ -129,15 +129,6 @@ header h1 {
     align-items: center;
 }
 
-.freitas button {
-    padding: 10px;
-    width: 150px;
-    background-color: #978f84;
-    color: black;
-    justify-content: center;
-    display: flex;
-}
-
 /* final da trerseira sessao */
 
 footer {
@@ -161,16 +152,52 @@ footer i {
 }
 
 .sessao-04 {
-    padding: 150px;/*preencimento/tamanho da section*/
-    background-color: #121210;/*cor do fundo*/
-    display: flex;/*deixando as div´s lado a lado*/
-    gap: 100px;/*espaçamento entre as caixas */
-    justify-content: space-evenly;/*justificando os conteudos*/
+    padding: 150px;
+    /*preencimento/tamanho da section*/
+    background-color: #121210;
+    /*cor do fundo*/
+    display: flex;
+    /*aqui estamos deixando as caixas lado alado*/
+    justify-content: space-evenly;
+    /*estamos justificando o possicionamento das caixas*/
+    gap: 20px;
+    /*brecha entre as caixas*/
 }
 
-.sessao-04 div { /*estilizando as div/caixas (total 3)*/
-    background-color: bisque;/*cor de fundo da caixa*/
-    width: 300px;/*largura da caixa*/
-    height: 300px;/*altura da caixa*/
-    color: #121210;/*cor da letra*/
+.sessao-04 div {
+    width: 300px;
+    height: 300px;
+    background-color: #4a362f;
+    text-align: center;
+    /*estou alinhando o texto ao centro*/
+    padding: 15px;
+    /*margem interna da caixa*/
+}
+
+.div-01 p {
+    color: #b7ae8f;
+}
+
+.div-02 {
+    /*estamos auterendo a segunda caixa/div*/
+    background-image: url(imagem/kira.jpg);
+    /*inserindo img*/
+    background-size: cover;
+    /*aplicando o preenchimento total*/
+}
+
+.div-03 img {
+    width: 100px;
+    height: 100px;
+}
+
+.div-03 p {
+    font-size: 17px;
+    /*tamanho da letra*/
+    color: #b7ae8f;
+    /*cor da letra*/
+    font-weight: 600px;
+    /*peso da font*/
+    line-height: 30px;
+    /*distancia entre as limhas*/
 }

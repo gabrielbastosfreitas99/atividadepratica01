@@ -3,18 +3,60 @@ header {
     justify-content: center;
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #faedd9;
     gap: 20px;
     padding: 30px;
+    align-items: center;
+}
 
+header i {
+    color: #faedd9;
+    /* cor do icone */
+    font-size: 60px;
+    /* tamanho do icone */
+}
+
+header h1 {
+    color: #faedd9;
+    /*cor da letra*/
+    font-size: 36px;
+    /*tamanho da letra*/
+    font-family: "Dancing Script", cursive;
+}
+
+.list-menu ul {
+    /*Alteraçao na lista nao oredenada (elemento pai)*/
+    display: flex;
+    /* tornando as ( li ) flex/ladoa a lado*/
+    justify-content: center;
+    /*Deixando elas centralisadas*/
+    gap: 25px;
+    /*Espaço entre as ( li )*/
+}
+
+.list-menu ul li {
+    /*Alteraçao da lista ( li ) (elemento filho)*/
+    list-style: none;
+    /*removendo o estilo de lista aplicado por psdrao*/
+}
+
+.list-menu ul li a {
+    text-decoration: none;
+    /*remoçao do sublinhado (Descoraçao de texto*/
+    color: #faedd9;
 }
 
 .miguel {
+    padding: 15px;
     background-color: #2a5c0b;
-    padding: 150px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
     justify-content: center;
-    display: inline-flexbox;
+    align-items: center;
+    gap: 60px;
+}
+
+.miguel img {
+    width: 400px;
+    height: 300px;
 }
 
 .jhonny {
@@ -22,6 +64,9 @@ header {
     background-color: #2a5c0b;
     padding: 10px;
     color: black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 .fabio {
@@ -33,7 +78,7 @@ header {
 }
 
 .bia {
-    background-color: #faedd9;
+    background-color: black;
     background-image: url(imagem/gbf1.webp);
     padding: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,9 +86,13 @@ header {
     justify-content: center;
     display: flex;
     background-repeat: no-repeat;
-    background-size: cover;
+    
     text-align: justify;
     gap: 30px;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .bia h2 {
@@ -60,12 +109,46 @@ header {
     color: black;
 }
 
+.sessao-01 {
+    background-color: #2a5c0b;
+    padding: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+
+
+}
+
+.div-01 {
+    width: 300px;
+    height: 300px;
+    background-color: #042608;
+    text-align: center;
+}
+
+.div-02 {
+    width: 300px;
+    height: 300px;
+    background-color: #042608;
+    text-align: center;
+}
+
+.div-03 {
+    width: 300px;
+    height: 300px;
+    background-color: #042608;
+    text-align: center;
+}
+
+
 footer {
     background-color: #ea2a15;
-    justify-content: center;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    padding: 150px;
+    padding: 50px;
+
 }
 
 footer i {
